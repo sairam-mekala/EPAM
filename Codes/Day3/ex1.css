@@ -1,0 +1,16 @@
+p{
+    color: lime;
+    font-size: 200%;
+    background: red;
+}
+
+.main{
+    
+    flex: content;
+}
+
+div{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}

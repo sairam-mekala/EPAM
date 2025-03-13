@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Demonstration</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+    }
+    table, th, td {
+      border: 1px solid black;
+    }
+    th, td {
+      padding: 10px;
+      text-align: left;
+    }
+    iframe {
+      width: 100px;
+      height: 100px;
+      border: 1px solid black;
+      margin: 5px;
+    }
+    .red {
+      background-color: red;
+      color: white;
+    }
+    .orange {
+      background-color: orange;
+      color: black;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Task 1: Demonstrate 5 different tables -->
+  <h2>Task 1: 5 Different Tables</h2>
+  <h3>Table 1: Simple Table</h3>
+  <table>
+    <tr>
+      <th>Name</th>
+      <th>Age</th>
+    </tr>
+    <tr>
+      <td>John</td>
+      <td>25</td>
+    </tr>
+    <tr>
+      <td>Jane</td>
+      <td>30</td>
+    </tr>
+  </table>
+
+  <h3>Table 2: Table with Colspan</h3>
+  <table>
+    <tr>
+      <th colspan="2">Full Name</th>
+    </tr>
+    <tr>
+      <td>John</td>
+      <td>Doe</td>
+    </tr>
+  </table>
+
+  <h3>Table 3: Table with Rowspan</h3>
+  <table>
+    <tr>
+      <th rowspan="2">Name</th>
+      <th>Age</th>
+    </tr>
+    <tr>
+      <td>25</td>
+    </tr>
+  </table>
+
+  <h3>Table 4: Table with Caption</h3>
+  <table>
+    <caption>Employee Details</caption>
+    <tr>
+      <th>Name</th>
+      <th>Designation</th>
+    </tr>
+    <tr>
+      <td>John</td>
+      <td>Developer</td>
+    </tr>
+  </table>
+
+  <h3>Table 5: Table with Styling</h3>
+  <table style="background-color: lightgray;">
+    <tr>
+      <th>Name</th>
+      <th>Age</th>
+    </tr>
+    <tr>
+      <td>Jane</td>
+      <td>30</td>
+    </tr>
+  </table>
+
+  <!-- Task 2: Login and Registration Forms with Validation -->
+  <h2>Task 2: Login and Registration Forms</h2>
+  <h3>Login Form</h3>
+  <form id="loginForm">
+    <label for="username">Username:</label>
+    <input type="text" id="username" required><br><br>
+    <label for="password">Password:</label>
+    <input type="password" id="password" required><br><br>
+    <button type="submit">Login</button>
+  </form>
+
+  <h3>Registration Form</h3>
+  <form id="registrationForm">
+    <label for="name">Name:</label>
+    <input type="text" id="name" required><br><br>
+    <label for="dob">Date of Birth:</label>
+    <input type="date" id="dob" required><br><br>
+    <button type="submit">Register</button>
+  </form>
+
+  <!-- Task 3: Display Articles with Paragraphs, Images, Videos, and Audios -->
+  <h2>Task 3: Articles with Media</h2>
+  <article>
+    <h3>Article 1: Nature</h3>
+    <p>Nature is beautiful. Here is an image of a forest:</p>
+    <img src="https://media.istockphoto.com/id/2153573059/photo/mountain-covered-with-a-coniferous-fir-tree-forest-scenic-landscape-from-carpathian-mountains.jpg?s=1024x1024&w=is&k=20&c=hwDTriUtxDP_4A6jQKVRWTTTXLf8jim4w3w1K2dcaHU=" alt="Forest">
+    <p>Here is a video about nature:</p>
+    <video width="400" controls>
+      <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <p>Here is an audio clip of birds chirping:</p>
+    <audio controls>
+      <source src="https://www.w3schools.com/html/horse.ogg" type="audio/ogg">
+      Your browser does not support the audio tag.
+    </audio>
+  </article>
+
+  <!-- Task 4: Section Tags in HTML5 -->
+  <h2>Task 4: Section Tags</h2>
+  <header>
+    <h3>Header Section</h3>
+    <p>This is the header of the page.</p>
+  </header>
+  <nav>
+    <h3>Menu Section</h3>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+  <section>
+    <h3>Main Content Section</h3>
+    <p>This is the main content of the page.</p>
+  </section>
+  <footer>
+    <h3>Footer Section</h3>
+    <p>This is the footer of the page.</p>
+  </footer>
+
+  <!-- Task 5: Display 10 Iframes -->
+  <h2>Task 5: 10 Iframes</h2>
+  <div>
+    <iframe src="https://www.example.com" style="background-color: lightblue;"></iframe>
+    <iframe src="https://www.example.com" style="background-color: lightgreen;"></iframe>
+    <iframe src="https://www.example.com" style="background-color: lightcoral;"></iframe>
+    <iframe src="https://www.example.com" style="background-color: lightyellow;"></iframe>
+    <iframe src="https://www.example.com" style="background-color: lightpink;"></iframe>
+    <iframe src="https://www.example.com" style="background-color: lightsalmon;"></iframe>
+    <iframe src="https://www.example.com" style="background-color: lightseagreen;"></iframe>
+    <iframe src="https://www.example.com" style="background-color: lightskyblue;"></iframe>
+    <iframe src="https://www.example.com" style="background-color: lightslategray;"></iframe>
+    <iframe src="https://www.example.com" style="background-color: lightsteelblue;"></iframe>
+  </div>
+
+  <!-- Task 6: CGPA Placement Eligibility -->
+  <h2>Task 6: CGPA Placement Eligibility</h2>
+  <div id="cgpaResults">
+    <!-- Results will be displayed here -->
+  </div>
+
+  <!-- Task C02: Employee Payslip Form -->
+  <h2>Task C02: Employee Payslip Form</h2>
+  <form id="payslipForm">
+    <label for="workingDays">Number of Working Days:</label>
+    <input type="number" id="workingDays" required><br><br>
+    <label for="daysPresent">Number of Days Present:</label>
+    <input type="number" id="daysPresent" required><br><br>
+    <button type="submit">Calculate Payslip</button>
+  </form>
+  <div id="payslipResult">
+    <!-- Payslip results will be displayed here -->
+  </div>
+
+  <script>
+    // Task 6: CGPA Placement Eligibility
+    const cgpaResults = document.getElementById("cgpaResults");
+    const students = [
+      { name: "Alice", cgpa: 7.3 },
+      { name: "Bob", cgpa: 7.6 },
+      { name: "Charlie", cgpa: 8.0 },
+      { name: "David", cgpa: 7.4 },
+      { name: "Eve", cgpa: 8.2 },
+      { name: "Frank", cgpa: 7.8 },
+      { name: "Grace", cgpa: 7.1 },
+      { name: "Hank", cgpa: 8.5 },
+      { name: "Ivy", cgpa: 7.9 },
+      { name: "Jack", cgpa: 8.1 },
+    ];
+
+    students.forEach(student => {
+      const div = document.createElement("div");
+      if (student.cgpa >= 7.2 && student.cgpa < 7.5) {
+        div.className = "red";
+        div.textContent = `${student.name}: CGPA ${student.cgpa} - Not Allowed for Placement Drive`;
+      } else if (student.cgpa >= 7.5 && student.cgpa <= 8.5) {
+        div.className = "orange";
+        div.textContent = `${student.name}: CGPA ${student.cgpa} - Maybe Placed`;
+      }
+      cgpaResults.appendChild(div);
+    });
+
+    // Task C02: Employee Payslip Calculation
+    const payslipForm = document.getElementById("payslipForm");
+    payslipForm.addEventListener("submit", function (e) {
+      e.preventDefault();
+      const basic = 37900;
+      const workingDays = parseInt(document.getElementById("workingDays").value);
+      const daysPresent = parseInt(document.getElementById("daysPresent").value);
+      const salary = (basic / workingDays) * daysPresent;
+      const dns = 0.09 * basic;
+      const hra = 0.3 * basic; // Assuming hostel accommodation
+      const totalSalary = salary + hra - dns;
+
+      const resultDiv = document.getElementById("payslipResult");
+      resultDiv.innerHTML = `
+        <h3>Payslip Details</h3>
+        <p>Basic Salary: ${basic}</p>
+        <p>Days Present: ${daysPresent}</p>
+        <p>Calculated Salary: ${salary.toFixed(2)}</p>
+        <p>DNS (9% of Basic): ${dns.toFixed(2)}</p>
+        <p>HRA (30% of Basic): ${hra.toFixed(2)}</p>
+        <p>Total Salary: ${totalSalary.toFixed(2)}</p>
+      `;
+    });
+  </script>
+</body>
+</html>
